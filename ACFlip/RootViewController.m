@@ -42,14 +42,6 @@ CGFloat const flip_duration = 0.6;
 -(void)click:(id)sender{
     [self.flipAnim flip];
 }
-
-
-
-
-
-
-
-
 -(void)setUpDemo{
     self.view.backgroundColor =[UIColor whiteColor];
     
