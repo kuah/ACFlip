@@ -22,6 +22,8 @@
 @property (nonatomic,assign,readonly)BOOL isReversed;
 /**是否在动画中*/
 @property (nonatomic,assign,readonly)BOOL isAnimating;
+/**是否在动画中*/
+@property (nonatomic,assign)BOOL clockwise;
 @property (nonatomic, weak, nullable) id <ACFlipDelegate> delegate;
 /**
  *  @brief 建立翻转动画关联
@@ -30,6 +32,14 @@
  *  @return instance
  */
 +(instancetype)flip:(UIView *)view and:(UIView *)backwardView;
+/**
+ *  @brief 建立翻转动画关联
+ *  @param view 正面的view
+ *  @param backwardView 背面的view
+ *  @param clockwise 顺时针
+ *  @return instance
+ */
++(instancetype)flip:(UIView *)view and:(UIView *)backwardView clockwise:(BOOL)clockwise;
 /**
  *  @brief 执行翻转动画
  */

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'ACFlip'
-  s.version      = '1.0.1'
+  s.version      = '1.0.2'
   s.summary      = '简单实用的翻转控件'
   s.homepage     = 'https://github.com/kuah/ACFlip'
   s.author       = "Kuah => 284766710@qq.com"

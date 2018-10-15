@@ -45,7 +45,7 @@ CGFloat const flip_duration = 0.6;
 -(void)setUpDemo{
     self.view.backgroundColor =[UIColor whiteColor];
     
-    UIButton * button0 = [[UIButton alloc]initWithFrame:(CGRect){0,0,50,50}];
+    UIButton * button0 = [[UIButton alloc]initWithFrame:(CGRect){0,50,50,50}];
     button0.backgroundColor = [UIColor blueColor];
     [self.view addSubview: button0];
     [button0 addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
