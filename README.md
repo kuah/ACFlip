@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/ACFlip.svg?style=flat)](http://cocoadocs.org/docsets/ACFlip)
 [![Platform](https://img.shields.io/badge/platform-iOS%208%2B-blue.svg?style=flat)](http://cocoadocs.org/docsets/ACFlip)
 
-![QQ20180807-174210](https://ws1.sinaimg.cn/large/0069RVTdgy1fu1a2rsonzg30610bnquq.gif)
+![QQ20181015-183200](https://ws2.sinaimg.cn/large/006tNbRwgy1fw937mhw0jg305w0bnhdu.gif)
 
 ## Install
 
